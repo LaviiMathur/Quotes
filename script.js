@@ -2,7 +2,7 @@
 let data = "";
 async function api() {
   try {
-    const response = await fetch("https://type.fit/api/quotes");
+    const response = await fetch("https://dummyjson.com/quotes");
     data = await response.json();
 
     console.log(data);
